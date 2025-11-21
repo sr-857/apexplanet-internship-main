@@ -72,5 +72,21 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## 📄 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+<div align="center">
+
 ---
-Developed with ❤️ by [Your Name] as part of the ApexPlanet Cybersecurity Internship Program
+
+### 🚀 About the Developer
+**Subhajit Roy**  
+Cybersecurity Enthusiast | Ethical Hacker | Security Researcher  
+
+[![LinkedIn](https://img.shields.io/badge/Connect-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-profile)
+[![GitHub](https://img.shields.io/badge/View-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yourusername)
+[![Portfolio](https://img.shields.io/badge/View-Portfolio-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://yourportfolio.com)
+
+### 🌟 ApexPlanet Cybersecurity Internship Program
+*Empowering the next generation of cybersecurity professionals through hands-on experience and real-world challenges.*
+
+[![ApexPlanet](https://img.shields.io/badge/Visit-ApexPlanet-FF6B6B?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.apexplanet.in)
+
+</div>

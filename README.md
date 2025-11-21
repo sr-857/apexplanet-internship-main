@@ -134,11 +134,20 @@ Identifying and mitigating web vulnerabilities.
 
 ## 📸 Screenshots
 
-| Task | Screenshot | Description |
-|------|------------|-------------|
-| Network Scan | ![Nmap Scan](screenshots/nmap-scan.png) | Comprehensive network scan results |
-| Web App Test | ![Burp Suite](screenshots/burp-suite.png) | Web application security testing |
-| Metasploit | ![Metasploit](screenshots/metasploit.png) | Exploitation framework in action |
+### Network Security
+- **Nmap Scan**  
+  ![Nmap Scan Example](https://github.com/sr-857/apexplanet-internship-main/raw/main/assets/nmap-scan.png)  
+  *Network reconnaissance using Nmap*
+
+### Web Application Security
+- **Burp Suite**  
+  ![Burp Suite Interface](https://github.com/sr-857/apexplanet-internship-main/raw/main/assets/burp-suite.png)  
+  *Web application security testing with Burp Suite*
+
+### System Security
+- **Metasploit Framework**  
+  ![Metasploit Console](https://github.com/sr-857/apexplanet-internship-main/raw/main/assets/metasploit.png)  
+  *Exploitation using Metasploit*
 
 ## ⚠️ Legal & Ethical Notice
 All security assessments and penetration tests were conducted in a controlled lab environment with proper authorization. The tools and techniques demonstrated are for educational purposes only and should only be used on systems you own or have explicit permission to test.

@@ -1,22 +1,95 @@
+<div align="center">
+
 # 🔒 ApexPlanet Cybersecurity Internship
 
-[![Status](https://img.shields.io/badge/Status-In%20Progress-2ecc71?style=flat-square)](https://github.com/sr-857/apexplanet-internship-main)
-[![License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)
+[![License: MIT](https://img.shields.io/github/license/sr-857/apexplanet-internship-main?style=flat-square)](LICENSE)
+[![Last Commit](https://img.shields.io/github/last-commit/sr-857/apexplanet-internship-main?style=flat-square)](https://github.com/sr-857/apexplanet-internship-main/commits/main)
+[![Repo Size](https://img.shields.io/github/repo-size/sr-857/apexplanet-internship-main?style=flat-square)](https://github.com/sr-857/apexplanet-internship-main)
+[![Open Issues](https://img.shields.io/github/issues/sr-857/apexplanet-internship-main?style=flat-square)](https://github.com/sr-857/apexplanet-internship-main/issues)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-green.svg?style=flat-square)](https://github.com/sr-857/apexplanet-internship-main/graphs/commit-activity)
 
-A structured, task-based cybersecurity internship repository covering hands-on labs, reports, tools, and demonstrations across network, web, system, and exploitation modules.
+*A structured, task-based cybersecurity internship repository covering hands-on labs, reports, and demonstrations.*
 
-## 🚀 Quick Links
-- [📋 Table of Contents](#-table-of-contents)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/sr-857/apexplanet-internship-main)
+
+</div>
+
+## 📋 Table of Contents
+- [🚀 Quick Start](#-quick-start)
 - [🛠️ Tech Stack](#-tech-stack)
 - [📂 Project Structure](#-project-structure)
 - [📚 Tasks](#-tasks)
-- [📊 What I Learned](#-what-i-learned)
-- [🗺️ Roadmap](#-roadmap)
 - [📸 Screenshots](#-screenshots)
+- [📝 How to Submit Work](#-how-to-submit-work)
 - [🤝 Contributing](#-contributing)
 - [📄 License](#-license)
+- [📞 Contact](#-contact)
+
+## 🚀 Quick Start
+
+### Prerequisites
+- [Git](https://git-scm.com/)
+- [Docker](https://www.docker.com/) (for containerized environments)
+- [Python 3.8+](https://www.python.org/downloads/)
+- [Kali Linux](https://www.kali.org/) (recommended) or any Linux distribution
+
+### Local Setup
+```bash
+# Clone the repository
+git clone https://github.com/sr-857/apexplanet-internship-main.git
+cd apexplanet-internship-main
+
+# Set up a virtual environment (recommended)
+python -m venv venv
+source venv/bin/activate  # On Windows: .\venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+```
+
+### Using Gitpod
+Click the button below to open the project in Gitpod, a ready-to-code development environment in your browser:
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/sr-857/apexplanet-internship-main)
+
+## 📝 How to Submit Work
+
+### Branching Strategy
+1. Create a new branch for each task:
+   ```bash
+   git checkout -b task/1-cybersecurity-foundations
+   ```
+   Naming convention: `task/<task-number>-<short-description>`
+
+2. Commit your changes with descriptive messages:
+   ```bash
+   git add .
+   git commit -m "feat(task-1): add security policy documentation"
+   ```
+
+3. Push your branch and create a Pull Request (PR):
+   ```bash
+   git push origin task/1-cybersecurity-foundations
+   ```
+   Then create a PR from your branch to `main`
+
+### Deliverables Structure
+For each task, include:
+```
+task-<number>/
+  ├── docs/           # Documentation
+  ├── reports/        # Assessment reports
+  ├── scripts/        # Custom scripts
+  └── README.md       # Task-specific instructions
+```
+
+### Code Review Process
+1. Create a draft PR early for feedback
+2. Request reviews from peers/mentors
+3. Address all review comments
+4. Ensure all tests pass
+5. Get approval before merging
 
 ## 🛠️ Tech Stack
 
@@ -158,21 +231,26 @@ Contributions are welcome! Please read our [contributing guidelines](CONTRIBUTIN
 ## 📄 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
----
+## 📞 Contact
 
-<div align="center">
-  
-### 🚀 About the Developer
+### 👨‍💻 Author
 **Subhajit Roy**  
-Cybersecurity Enthusiast | Ethical Hacker | Security Researcher  
+Cybersecurity Enthusiast | Ethical Hacker  
 
-[![LinkedIn](https://img.shields.io/badge/Let's%20Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sr857/)
+[![Email](https://img.shields.io/badge/Email-Contact%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@example.com)
+[![LinkedIn](https://img.shields.io/badge/Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sr857/)
 [![GitHub](https://img.shields.io/badge/View-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sr-857)
 [![Portfolio](https://img.shields.io/badge/View-Portfolio-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://sr-857.github.io)
 
-### 🌟 ApexPlanet Cybersecurity Internship Program
+### 🌟 Program Information
+**ApexPlanet Cybersecurity Internship Program**  
 *Empowering the next generation of cybersecurity professionals through hands-on experience and real-world challenges.*
 
-[![ApexPlanet](https://img.shields.io/badge/Visit-ApexPlanet-FF6B6B?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.apexplanet.in)
+[![Website](https://img.shields.io/badge/Visit-ApexPlanet-FF6B6B?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.apexplanet.in)
+[![Report Issue](https://img.shields.io/badge/Report-Issue-red?style=for-the-badge&logo=github)](https://github.com/sr-857/apexplanet-internship-main/issues/new/choose)
 
+---
+
+<div align="center">
+  <sub>Built with ❤️ by <a href="https://github.com/sr-857">Subhajit Roy</a></sub>
 </div>

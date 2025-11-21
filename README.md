@@ -1,88 +1,165 @@
-# ApexPlanet Cybersecurity & Ethical Hacking Internship
+# 🔒 ApexPlanet Cybersecurity Internship
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Status](https://img.shields.io/badge/Status-In%20Progress-2ecc71?style=flat-square)](https://github.com/sr-857/apexplanet-internship-main)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-green.svg?style=flat-square)](https://github.com/sr-857/apexplanet-internship-main/graphs/commit-activity)
 
-This repository contains all the tasks, deliverables, and projects completed during the ApexPlanet Software Pvt. Ltd. Cybersecurity & Ethical Hacking Internship Program. The program covers various aspects of cybersecurity, from foundational concepts to advanced penetration testing techniques.
+A structured, task-based cybersecurity internship repository covering hands-on labs, reports, tools, and demonstrations across network, web, system, and exploitation modules.
 
-## 📋 Table of Contents
-- [About the Program](#-about-the-program)
-- [Tasks](#-tasks)
-- [Getting Started](#-getting-started)
-- [Project Structure](#-project-structure)
-- [Contributing](#-contributing)
-- [License](#-license)
+## 🚀 Quick Links
+- [📋 Table of Contents](#-table-of-contents)
+- [🛠️ Tech Stack](#-tech-stack)
+- [📂 Project Structure](#-project-structure)
+- [📚 Tasks](#-tasks)
+- [📊 What I Learned](#-what-i-learned)
+- [🗺️ Roadmap](#-roadmap)
+- [📸 Screenshots](#-screenshots)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
 
-## 🚀 About the Program
-The ApexPlanet Cybersecurity & Ethical Hacking Internship is designed to provide hands-on experience in various cybersecurity domains. The program covers both theoretical foundations and practical applications of cybersecurity principles.
+## 🛠️ Tech Stack
+
+![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+
+### 🔧 Tools Used
+- **Scanning**: Nmap, OpenVAS, Nikto
+- **Web**: Burp Suite, OWASP ZAP, SQLmap
+- **Exploitation**: Metasploit, John the Ripper, Hydra
+- **Forensics**: Wireshark, Volatility, Autopsy
+
+## 📂 Project Structure
+```
+├── task-1/              # 🛡️  Foundations of Cybersecurity
+├── task-2/              # 🌐 Network Security & Scanning
+├── task-3/              # 🕸️  Web Application Security
+├── task-4/              # 💣 Exploitation & System Security
+└── task-5/              # 🚨 Capstone Project & Incident Response
+```
 
 ## 📚 Tasks
 
-### Task 1: Foundations of Cybersecurity
-- Understanding core security concepts
-- Security policies and procedures
-- Risk management and assessment
-- Cryptography fundamentals
+### 🛡️ Task 1: Foundations of Cybersecurity
+**Overview**  
+Building core security knowledge and cryptographic principles.
 
-### Task 2: Network Security & Scanning
-- Network protocols and security
-- Network scanning techniques
-- Vulnerability assessment
-- Firewall and IDS/IPS systems
+**Deliverables**
+- [x] Security policies documentation
+- [x] Risk assessment reports
+- [x] Cryptographic implementation examples
 
-### Task 3: Web Application Security
-- OWASP Top 10 vulnerabilities
+**Tools Used**
+- Wireshark
+- GnuPG
+- OpenSSL
+
+[📄 View Full Report](task-1/report.pdf) | [🎥 Demo Video](#)
+
+### 🌐 Task 2: Network Security & Scanning
+**Overview**  
+Mastering network reconnaissance and vulnerability assessment.
+
+**Deliverables**
+- [x] Nmap scan reports
+- [x] Network topology diagrams
+- [x] Vulnerability assessment reports
+
+**Tools Used**
+- Nmap
+- Wireshark
+- OpenVAS
+
+[📄 View Full Report](task-2/report.pdf) | [🎥 Demo Video](#)
+
+### 🕸️ Task 3: Web Application Security
+**Overview**  
+Identifying and mitigating web vulnerabilities.
+
+**Deliverables**
+- [ ] OWASP Top 10 vulnerability report
+- [ ] Secure coding guidelines
+- [ ] Web app penetration test report
+
+**Tools Used**
+- Burp Suite
+- OWASP ZAP
+- SQLmap
+
+[📄 View Full Report](task-3/report.pdf) | [🎥 Demo Video](#)
+
+## 📊 What I Learned
+
+### 🎯 Key Achievements
+- Performed comprehensive network vulnerability assessments
+- Conducted web application penetration testing
+- Implemented security controls and hardening measures
+- Generated professional security assessment reports
+
+### 🛠️ Technical Skills
+- Network scanning and enumeration
 - Web application penetration testing
-- Secure coding practices
-- Authentication and authorization mechanisms
-
-### Task 4: Exploitation & System Security
-- System vulnerabilities and exploitation
-- Privilege escalation techniques
-- Malware analysis
+- System exploitation techniques
 - Digital forensics basics
+- Security documentation
 
-### Task 5: Capstone Project & Incident Response
-- Real-world security incident simulation
-- Incident response planning
-- Security monitoring and analysis
-- Final project presentation
+## 🗺️ Roadmap
 
-## 🛠️ Getting Started
-To get started with the projects in this repository:
+- [x] **Task 1** – Cybersecurity Foundations  
+  - [x] Security principles
+  - [x] Cryptography
+  - [x] Risk management
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/sr-857/apexplanet-internship-main.git
-   ```
-2. Navigate to the specific task directory
-3. Follow the instructions in each task's README (if available)
+- [x] **Task 2** – Network Security  
+  - [x] Network scanning
+  - [x] Traffic analysis
+  - [x] Vulnerability assessment
 
-## 📁 Project Structure
-```
-├── task-1/              # Foundations of Cybersecurity
-├── task-2/              # Network Security & Scanning
-├── task-3/              # Web Application Security
-├── task-4/              # Exploitation & System Security
-└── task-5/              # Capstone Project & Incident Response
-```
+- [ ] **Task 3** – Web Security  
+  - [ ] OWASP Top 10
+  - [ ] Authentication mechanisms
+  - [ ] Secure coding
+
+- [ ] **Task 4** – Exploitation  
+  - [ ] System vulnerabilities
+  - [ ] Privilege escalation
+  - [ ] Malware analysis
+
+- [ ] **Task 5** – Capstone Project  
+  - [ ] Real-world simulation
+  - [ ] Incident response
+  - [ ] Final presentation
+
+## 📸 Screenshots
+
+| Task | Screenshot | Description |
+|------|------------|-------------|
+| Network Scan | ![Nmap Scan](screenshots/nmap-scan.png) | Comprehensive network scan results |
+| Web App Test | ![Burp Suite](screenshots/burp-suite.png) | Web application security testing |
+| Metasploit | ![Metasploit](screenshots/metasploit.png) | Exploitation framework in action |
+
+## ⚠️ Legal & Ethical Notice
+All security assessments and penetration tests were conducted in a controlled lab environment with proper authorization. The tools and techniques demonstrated are for educational purposes only and should only be used on systems you own or have explicit permission to test.
 
 ## 🤝 Contributing
-Contributions are welcome! Please feel free to submit a Pull Request.
+Contributions are welcome! Please read our [contributing guidelines](CONTRIBUTING.md) before submitting pull requests.
 
 ## 📄 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-<div align="center">
-
 ---
 
+<div align="center">
+  
 ### 🚀 About the Developer
 **Subhajit Roy**  
 Cybersecurity Enthusiast | Ethical Hacker | Security Researcher  
 
-[![LinkedIn](https://img.shields.io/badge/Connect-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-profile)
-[![GitHub](https://img.shields.io/badge/View-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yourusername)
-[![Portfolio](https://img.shields.io/badge/View-Portfolio-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://yourportfolio.com)
+[![LinkedIn](https://img.shields.io/badge/Let's%20Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sr857/)
+[![GitHub](https://img.shields.io/badge/View-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sr-857)
+[![Portfolio](https://img.shields.io/badge/View-Portfolio-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://sr-857.github.io)
 
 ### 🌟 ApexPlanet Cybersecurity Internship Program
 *Empowering the next generation of cybersecurity professionals through hands-on experience and real-world challenges.*
